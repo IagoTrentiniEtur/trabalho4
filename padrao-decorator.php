@@ -85,5 +85,5 @@ $reportWithHeader = new HeaderDecorator($reportWithBorder, "Relatório Mensal");
 $finalReport = new ColorDecorator($reportWithHeader, "red"); // Adiciona cor vermelha
 
 echo $finalReport->generate();
-
+echo "<p>Desenvolvido por: <a href='https://github.com/IagoTrentiniEtur'>Iago</a> e <a href='https://github.com/pauloWarmling/'>Paulo</a></p>";
 ?>

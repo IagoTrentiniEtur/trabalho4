@@ -42,5 +42,6 @@ $registry->registerUser('johndoe', 'johndoe@example.com');
 // Teste de singleton - sempre será a mesma instância
 $anotherRegistry = UserRegistry::getInstance();
 var_dump($registry === $anotherRegistry); // true
+echo "<p>Desenvolvido por: <a href='https://github.com/IagoTrentiniEtur'>Iago</a> e <a href='https://github.com/pauloWarmling/'>Paulo</a></p>";
 
 ?>
